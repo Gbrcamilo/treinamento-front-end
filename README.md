@@ -1,5 +1,7 @@
  Link figma para entender logica utilizada:https://www.figma.com/design/9JWgLdoiLY5bWbQwxCF4jR/Estagio_teste?node-id=0-1&t=C78sL2zR3gVVQ5ai-1
 
+ Site para melhor visualização:https://estagio-front-end-teste.netlify.app/
+
 ***Organização do Conteúdo***
 
 Problema:
