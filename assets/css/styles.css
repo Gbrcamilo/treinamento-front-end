@@ -1,0 +1,79 @@
+/* Reset de margens e padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo do Header */
+header {
+    text-align: center;
+    margin-top: 20px;
+    border-bottom: 2px solid #fff;
+    padding-bottom: 20px;
+}
+
+#img-header {
+    width: 200px;
+    margin-top: 20px;
+}
+
+/* Estilo do corpo */
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    background-color: #101010;
+    color: #fff;
+}
+
+/* Estilo dos botões */
+#container-button {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.buttons {
+    background-color: #000000;
+    padding: 10px 20px;
+    margin: 0 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-family: 'Roboto', sans-serif;
+}
+
+.buttons:hover {
+    background-color: #e62429;
+}
+
+/* Estilo dos heróis */
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row-reverse;
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+.hero img {
+    width: 200px;
+    margin-left: 20px;
+    border-radius: 10px;
+}
+
+.hero .text {
+    max-width: 600px;
+}
+
+.hero h2 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.hero p {
+    font-size: 1rem;
+    color: #fff;
+}
